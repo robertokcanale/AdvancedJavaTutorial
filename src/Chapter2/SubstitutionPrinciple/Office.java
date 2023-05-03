@@ -1,4 +1,4 @@
-package SubstitutionPrinciple;
+package Chapter2.SubstitutionPrinciple;
 
 public class Office extends Building{
     public Office() {

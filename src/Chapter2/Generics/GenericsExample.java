@@ -1,3 +1,5 @@
+package Chapter2.Generics;
+
 import java.util.ArrayList;
 import java.util.List;
 public class GenericsExample {

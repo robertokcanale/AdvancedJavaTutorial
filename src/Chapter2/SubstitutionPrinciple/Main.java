@@ -1,4 +1,4 @@
-package SubstitutionPrinciple;
+package Chapter2.SubstitutionPrinciple;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,10 +19,10 @@ public class Main {
         printBuildings(buildings);
 
         //cannot add Buildings to Offices!
-        List<Office> offices = new ArrayList<>();
-        buildings.add(new Office());
-        buildings.add(new Office());
-        printBuildings(offices);
+//        List<Office> offices = new ArrayList<>();
+//        buildings.add(new Office());
+//        buildings.add(new Office());
+//        printBuildings(offices);
 
 
     }
