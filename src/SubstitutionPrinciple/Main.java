@@ -22,7 +22,7 @@ public class Main {
         List<Office> offices = new ArrayList<>();
         buildings.add(new Office());
         buildings.add(new Office());
-        printBuildings(offices);
+        //printBuildings(offices);
 
 
     }
