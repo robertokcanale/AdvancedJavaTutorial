@@ -3,8 +3,8 @@ package Chapter4.Streams;
 import java.util.ArrayList;
 
 //Streams are better for internal looping operations
-//Allow to perform things inside the stream, searching filtering etc and are in general Much Faster!
-//Allows to use ITERATIONS in PARALLEL, this is easy and it is faster. For small datasets, there is no differnce
+//Allow to perform things inside the stream, searching filtering etc. and are in general Much Faster!
+//Allows to use ITERATIONS in PARALLEL, this is easy and it is faster. For small datasets, there is no difference
 // .stream()= normal stream
 // .parallelStream()= parallel stream
 public class Library {
@@ -12,10 +12,8 @@ public class Library {
         ArrayList<Book> books = populateLibrary();
 
         //Turn the books array into a STREAM
-        //Check if AutorStarts with J
-        books.parallelStream().filter(book -> {
-            return book.getAuthor().startsWith("J");
-        }).forEach(System.out::println); //Lambda function of println
+        //Check if AuthorStarts with J
+        books.parallelStream().filter(book -> book.getAuthor().startsWith("J")).forEach(System.out::println); //Lambda function of println
 
         //ADD More Filtering, where the list starts with A and the book with another letter
         books.parallelStream().filter(book -> {
