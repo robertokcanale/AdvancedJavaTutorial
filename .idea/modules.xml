@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AJP.iml" filepath="$PROJECT_DIR$/AJP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModuleA/ModuleA.iml" filepath="$PROJECT_DIR$/ModuleA/ModuleA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModuleB/ModuleB.iml" filepath="$PROJECT_DIR$/ModuleB/ModuleB.iml" />
     </modules>
   </component>
 </project>
