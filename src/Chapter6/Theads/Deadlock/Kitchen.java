@@ -1,9 +1,9 @@
 package Chapter6.Theads.Deadlock;
 
-//DEADLOCK: two or more threads wait on eachother FOREVER
+//DEADLOCK: two or more threads wait on each-other FOREVER
 public class Kitchen {
-    public static Object spoon = new Object();
-    public static Object bowl = new Object();
+    public static final Object spoon = new Object();
+    public static final Object bowl = new Object();
     //SYNCHRONIZED: Piece of CODE that only ONE THREAD at a TIME can Access
     public static void main(String[] args) {
         Thread cook1 = new Thread(() -> {
